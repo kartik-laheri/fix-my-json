@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #0d1117;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.editors {
+    display: flex;
+    flex: 1;
+    border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+button {
+    background-color: #238636;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background-color: #2ea043;
+}

@@ -1,0 +1,18 @@
+.editorPane {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #2d2d2d;
+    padding: 0.5rem;
+}
+
+.editorPane:last-child {
+    border-right: none;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #c9d1d9;
+}

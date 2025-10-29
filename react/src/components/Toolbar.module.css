@@ -1,0 +1,32 @@
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid #2d2d2d;
+    background-color: #161b22;
+}
+
+.btn {
+    background-color: #30363d;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: #484f58;
+}
+
+.fixBtn {
+    background-color: #238636;
+}
+
+.fixBtn:hover {
+    background-color: #2ea043;
+}
